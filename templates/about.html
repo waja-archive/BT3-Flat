@@ -90,6 +90,7 @@
     </section>
     <!-- /ABOUT -->
 
+    {% if WORK_DESCRIPTION %}
     <!-- WORK -->
     <section id="work" class="alternate arrow-down">
     <div class="container">
@@ -214,7 +215,9 @@
     </div>
     </section>
     <!-- /WORK -->
+    {% endif %}
 
+    {% if articles %}
     <!-- BLOG -->
     <section id="quick-blog" class="alternate">
     <div class="container">
@@ -266,6 +269,7 @@
     </div>
     </section>
     <!-- /BLOG -->
+    {% endif %}
 
     {% include "_includes/footer.html" %}
 </body>
