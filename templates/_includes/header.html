@@ -18,8 +18,16 @@
 {% endif %}
 
 <!-- CORE CSS FRAMEWORK -->
+{% if USER_BOOTSTRAP %}
+<link href="{{USER_BOOTSTRAP}}/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+{% else %}
 <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+{% endif %}
+{% if USER_FONTAWESOME  %}
+<link href="{{USER_FONTAWESOME}}/css/font-awesome.css" rel="stylesheet">
+{% else %}
 <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+{% endif %}
 
 <!-- CSS TEMPLATE -->
 <link href="{{SITEURL}}/theme/css/reset.css" rel="stylesheet" type="text/css" />
