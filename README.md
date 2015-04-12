@@ -122,7 +122,11 @@ SITEMAP = {
 FAVICON = 'https://dl.dropboxusercontent.com/u/299446/logo.png'
 ICON = 'https://dl.dropboxusercontent.com/u/299446/logo.png'
 SHORTCUT_ICON = 'https://dl.dropboxusercontent.com/u/299446/logo.png'
-# HEADER_IMAGE = 'Your local or remote URL'
+# HEADER_IMAGE = 'Your local or remote URL
+# Google fonts can be downloaded with
+# https://neverpanic.de/downloads/code/2014-03-19-downloading-google-web-fonts-for-local-hosting-fetch.sh'
+# Maybe you need to add missing mime types to your webserver configuration
+# USER_FONT = '{{SITEURL}}/fonts/font.css'
 
 # About ME
 PERSONAL_PHOTO = "https://dl.dropboxusercontent.com/u/299446/thumb-400x400.png"
