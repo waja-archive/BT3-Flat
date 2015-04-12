@@ -10,7 +10,11 @@
 
         <div class="col-md-6 copyright">
             {{ SITENAME|e }}
+            {% if COPYRIGHT %}
+            <br />{{ COPYRIGHT }}
+            {% else %}
             <br />2015 &copy; All Rights Reserved.
+            {% endif %}
         </div>
 
         <div class="col-md-6 text-right">
